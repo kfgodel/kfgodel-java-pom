@@ -1,2 +1,3 @@
-# kfgodel-root-pom
-Repository to hold the definition of a root pom for kfgodel projects
+# kfgodel-java-pom
+
+Pom definition with some dependencies and plugin configurations to use on every java project
