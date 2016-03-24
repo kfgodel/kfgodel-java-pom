@@ -37,8 +37,8 @@
     <version.plugin.compiler>3.3</version.plugin.compiler>
     <version.plugin.jar>2.6</version.plugin.jar>
     <version.plugin.source>2.4</version.plugin.source>
-    <version.plugin.failsafe>2.18.1</version.plugin.failsafe>
-    <version.plugin.surefire>2.18.1</version.plugin.surefire>
+    <version.plugin.failsafe>2.19.1</version.plugin.failsafe>
+    <version.plugin.surefire>2.19.1</version.plugin.surefire>
     <version.plugin.jacoco>0.7.6.201602180812</version.plugin.jacoco>
     <version.plugin.jgit-buildnumber>1.2.9</version.plugin.jgit-buildnumber>
     <version.plugin.buildnumber>1.4</version.plugin.buildnumber>
