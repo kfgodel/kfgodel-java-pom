@@ -4,15 +4,15 @@
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <modelVersion>4.0.0</modelVersion>
 
+  <artifactId>java-pom</artifactId>
+  <version>0.1.1-SNAPSHOT</version>
+  <packaging>pom</packaging>
+
   <parent>
     <groupId>ar.com.kfgodel</groupId>
     <artifactId>root-pom</artifactId>
     <version>0.2.0</version>
   </parent>
-
-  <artifactId>java-pom</artifactId>
-  <version>0.1.1-SNAPSHOT</version>
-  <packaging>pom</packaging>
 
   <name>Kfodel-Java-pom</name>
   <description>Pom definition for all kfgodel Java projects</description>
