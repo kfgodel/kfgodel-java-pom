@@ -15,11 +15,20 @@
 
   <name>Kfodel-Java-pom</name>
   <description>Pom definition for all kfgodel Java projects</description>
+  <url>https://github.com/kfgodel/kfgodel-java-pom</url>
+
+  <licenses>
+    <license>
+      <name>Apache License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
 
   <scm>
-    <connection>scm:git:ssh://github.com/kfgodel/kfgodel-java-pom.git</connection>
     <developerConnection>scm:git:ssh://github.com/kfgodel/kfgodel-java-pom.git</developerConnection>
-    <url>https://github.com/kfgodel/kfgodel-java-pom</url>
+    <connection>${project.scm.developerConnection}</connection>
+    <url>${project.url}</url>
   </scm>
 
   <repositories>
