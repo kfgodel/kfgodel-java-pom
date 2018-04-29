@@ -68,7 +68,8 @@
     <version.guava>19.0</version.guava>
     <version.mockito>2.0.2-beta</version.mockito>
     <version.assertj>1.6.1</version.assertj>
-    <version.javaspec>2.2</version.javaspec>
+
+    <version.javaspec>2.4</version.javaspec>
     <version.nary>2.0.5</version.nary>
 
     <!-- Location of the JaCoCo output file created by the agent execution during ITs. We want
