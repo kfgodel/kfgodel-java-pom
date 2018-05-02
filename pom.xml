@@ -9,9 +9,9 @@
   <packaging>pom</packaging>
 
   <parent>
-    <groupId>ar.com.kfgodel</groupId>
+    <groupId>info.kfgodel</groupId>
     <artifactId>root-pom</artifactId>
-    <version>0.2.0</version>
+    <version>0.2.1-SNAPSHOT</version>
   </parent>
 
   <name>Kfodel-Java-pom</name>
@@ -31,20 +31,6 @@
     <connection>${project.scm.developerConnection}</connection>
     <url>${project.url}</url>
   </scm>
-
-  <repositories>
-    <repository>
-      <id>kfgodel_mosquito</id>
-      <name>Repo Mosquito</name>
-      <url>http://kfgodel.info:8081/nexus/content/groups/public/</url>
-      <releases>
-        <updatePolicy>never</updatePolicy>
-      </releases>
-      <snapshots>
-        <updatePolicy>interval:5</updatePolicy>
-      </snapshots>
-    </repository>
-  </repositories>
 
   <properties>
     <project.java.source>1.8</project.java.source>
