@@ -222,7 +222,7 @@ of a fixed location is recommended. -->
         <executions>
           <execution>
             <id>attach-source</id>
-            <phase>verify</phase>
+            <phase>compile</phase>
             <goals>
               <goal>jar-no-fork</goal>
             </goals>
