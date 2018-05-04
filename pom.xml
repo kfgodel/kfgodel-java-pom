@@ -55,8 +55,8 @@
     <version.mockito>2.0.2-beta</version.mockito>
     <version.assertj>1.6.1</version.assertj>
 
-    <version.javaspec>2.4</version.javaspec>
-    <version.nary>2.0.5</version.nary>
+    <version.javaspec>2.4.1</version.javaspec>
+    <version.nary>2.0.7</version.nary>
 
     <!-- Location of the JaCoCo output file created by the agent execution during ITs. We want
 all modules to dump their coverage information into a single file for Sonar to pick up.
