@@ -5,7 +5,7 @@
   <modelVersion>4.0.0</modelVersion>
 
   <artifactId>java-pom</artifactId>
-  <version>1.0.0-SNAPSHOT</version>
+  <version>0.1.7-SNAPSHOT</version>
   <packaging>pom</packaging>
 
   <parent>
@@ -51,11 +51,11 @@
     <version.slf4j>1.7.25</version.slf4j>
     <version.logback>1.2.3</version.logback>
     <version.junit>4.12</version.junit>
-    <version.guava>27.0.1-jre</version.guava>
-    <version.mockito>2.24.0</version.mockito>
+    <version.guava>28.1-jre</version.guava>
+    <version.mockito>3.1.0</version.mockito>
     <version.assertj>3.11.1</version.assertj>
 
-    <version.javaspec>2.4.3</version.javaspec>
+    <version.jspek>1.0.0</version.jspek>
     <version.nary>2.0.7</version.nary>
   </properties>
 
@@ -133,7 +133,7 @@
         <version>${version.plugin.jgit-buildnumber}</version>
         <executions>
           <execution>
-            <id>git-buildnumber</id>
+            <id>read-get-data</id>
             <goals>
               <goal>extract-buildnumber</goal>
             </goals>
@@ -159,7 +159,7 @@
         <configuration>
           <buildNumberPropertiesFileLocation>${basedir}/src/main/resources/buildNumber.properties
           </buildNumberPropertiesFileLocation>
-          <!-- Don't validate uncommited changes -->
+          <!-- Don't validate uncommitted changes -->
           <doCheck>false</doCheck>
           <!-- Don't validate un pushed changes -->
           <doUpdate>false</doUpdate>
@@ -216,14 +216,14 @@
         </executions>
       </plugin>
 
-      <!-- Attach javadocs jar -->
+      <!-- Attach javadoc jar -->
       <plugin>
         <groupId>org.apache.maven.plugins</groupId>
         <artifactId>maven-javadoc-plugin</artifactId>
         <version>${version.plugin.javadoc}</version>
         <executions>
           <execution>
-            <id>attach-javadocs</id>
+            <id>attach-javadoc</id>
             <goals>
               <goal>jar</goal>
             </goals>
@@ -273,7 +273,7 @@
       <dependency>
         <groupId>ar.com.dgarcia</groupId>
         <artifactId>java-spec</artifactId>
-        <version>${version.javaspec}</version>
+        <version>${version.jspek}</version>
         <scope>test</scope>
       </dependency>
 
@@ -307,7 +307,7 @@
 
   <dependencies>
 
-    <!--  Some common clases and utility methods -->
+    <!--  Some common classes and utility methods -->
     <dependency>
       <groupId>com.google.guava</groupId>
       <artifactId>guava</artifactId>
