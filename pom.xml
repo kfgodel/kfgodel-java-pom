@@ -264,15 +264,15 @@
 
       <!-- Represent uncertainty for quantities -->
       <dependency>
-        <groupId>ar.com.kfgodel</groupId>
+        <groupId>info.kfgodel</groupId>
         <artifactId>nary</artifactId>
         <version>${version.nary}</version>
       </dependency>
 
       <!-- Spec for testing -->
       <dependency>
-        <groupId>ar.com.dgarcia</groupId>
-        <artifactId>java-spec</artifactId>
+        <groupId>info.kfgodel</groupId>
+        <artifactId>jspek</artifactId>
         <version>${version.jspek}</version>
         <scope>test</scope>
       </dependency>
