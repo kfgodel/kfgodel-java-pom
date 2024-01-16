@@ -49,7 +49,7 @@
 
     <version.querydsl>4.0.9</version.querydsl>
     <version.slf4j>1.7.25</version.slf4j>
-    <version.logback>1.2.3</version.logback>
+    <version.logback>1.2.13</version.logback>
     <version.junit>4.13.1</version.junit>
     <version.guava>28.1-jre</version.guava>
     <version.mockito>3.1.0</version.mockito>
